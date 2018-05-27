@@ -1,0 +1,111 @@
+
+
+.panel-body {
+    padding: 0 12px;
+}
+
+#txtSearch, #grpWordfilter {
+    margin-bottom: 12px;
+}
+
+#txtSearch {
+    min-width: 100%;
+    max-width: 100%;
+}
+
+#lnkPage {
+	font-size: 0.8em;
+}
+
+#btnReset, #btnAbout {
+   float:right;
+   margin-left: 12px;
+}
+
+#imgUser {
+    width: 100px;
+    height: 100px;
+}
+
+.img-responsive {
+    margin: 0 auto;
+}
+
+#lblError {
+    color:#b94a48;
+}
+
+#btnPreview {
+    width: 77px;
+}
+
+
+#tblPartial tr {
+    background-color: #ffffff;
+}
+
+#tblPartial .middle td, 
+#tblPartial .last td {
+    border: 0;
+    
+}
+
+#tblPartial .middle td:first-child,
+#tblPartial .last td:first-child {
+    opacity:0;
+    font-size: 0;
+}
+
+#tblPartial .first td:not(:first-child){
+    font-size: 0.93em;
+}
+
+#tblPartial .middle td:not(:first-child),
+#tblPartial .last td:not(:first-child) {
+    font-size: 0.85em;
+}
+
+#tblPartial td {
+    padding: 1px 10px;
+}
+
+table thead tr:first-child th[colspan] {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+
+#lblElap {
+    text-align: center;
+    font-size: 0.66em;
+}
+
+.hidd {
+    display: none;
+}
+
+#tblOwnedExact tr.owned td:first-child,
+#tblPartial tr.owned td:nth-child(2)
+{
+    background: #9bb8d7;
+    background: -moz-linear-gradient(left, #9bb8d7 0%, #ffffff 100%);
+    background: -webkit-linear-gradient(left, #9bb8d7 0%,#ffffff 100%);
+    background: linear-gradient(to right, #9bb8d7 0%,#ffffff 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9bb8d7', endColorstr='#ffffff',GradientType=1 );
+}
+
+.accu1 {
+    color: #47d527;
+}
+
+.accu2 {
+    color: #ecec00;
+}
+
+.accu3 {
+    color:#f28600;
+}
+
+.accu4 {
+    color:#e90200;
+}
